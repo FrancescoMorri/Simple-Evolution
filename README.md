@@ -5,6 +5,12 @@ This very basic program simulates the evolution of a population over time. It is
 + animation function
 + data visualization
 
+To run the simulation, just run `main.py` and insert the desired values for `FOOD` (starting food on the map), `BLOBS` (starting population) and `REFRESH` (how much food is reinserted each iteration).
+
+All the data about the simulation is saved on a file called `data.csv` and running `data_visualization.py` it is plotted.
+
+The only libraries needed are `matplolib` and `numpy`.
+
 ## Blob class
 It's the file `blob.py` and it should be already enough commentated there, but we will give a general overview also here:
 ### `__init__(self, x, y, radius, heir, vis, spe, old_life)`
@@ -45,4 +51,5 @@ There is also a Jupyter notebook version of the program, it is not very convenie
 + optimize everything and clean it up
 + add more options to be chosen from input
 + add possibility to save the animation as gif
++ organize better main and check for libraries
 + ...
